@@ -233,28 +233,6 @@ header ul a{
     background-color: #EBEBEB;
 }
 
-.encabezado .titulo h1{
-    color: #292525;
-    background-color: #b8b4b4;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    text-align: center;
-    display: block;
-}
-
-.banner a img{
-    width: 90%;
-    height: 90%;
-    object-fit: cover;
-    justify-items: center;
-    transition: 1s;
-}
-
-.banner a img:hover{
-    opacity: 60%;
-    transition: 1s;
-}
-
 .fotografias{
     margin: 1rem;
     display: grid;
@@ -277,30 +255,42 @@ header ul a{
     background-color: #EBEBEB;
 }
 
-.encabezado .titulo h1{
-    color: #292525;
-    background-color: #b8b4b4;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+
+
+/* estilos main acerca */
+
+.mainAcerca{
+    height: 100vh;
+    margin: 0.5rem;
+    background-color: #EBEBEB;
+}
+
+.contenedorAcerca{
+    height: 45hv;
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+}
+.imagenAcerca img{
+    width: 100%;
+    margin: 1rem;
+}
+.contenidoAcerca{
+    background-color: #dbd2d2;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 1rem;
+}
+.contenidoAcerca h2{
+    font-size: 1.3rem;
+}
+.contenidoAcerca h2 span{
     display: block;
 }
-
-.banner a img{
-    width: 90%;
-    height: 90%;
-    object-fit: cover;
-    justify-items: center;
-    transition: 1s;
-}
-
-.banner a img:hover{
-    opacity: 60%;
-    transition: 1s;
-}
-
-
-
 /* estilos del footer */
 
 footer{
